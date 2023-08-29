@@ -1,0 +1,244 @@
+:root {
+  /* Paleta de cores */
+  --verde: #01dfa2;
+  --verde-hover: #15ca9a;
+
+  --azul-claro: #d6eeff;
+  --azul-claro2: rgb(240, 249, 255);
+  --azul: #0079ff;
+  --azul-hover: #006deb;
+
+  --cinza-escuro: #e1e1e1;
+  --cinza-escuro2: #cecece;
+  --cinza-escuro3: #999999;
+  --cinza-claro: #f8f9fa;
+  --cinza-claro2: #f2f2f2;
+
+  --branco: #fff;
+
+  --titulo: #40514e;
+  --bannerUpgrade: #0e0e0e;
+
+  --sombra: 0px 0px 6px 1px rgba(3, 66, 126, 0.1);
+
+  --blaack: @font-face {
+    font-family: "NotoSans-Black";
+    src: url("./assets/Fonts/Noto_Sans/NotoSans-Black.ttf") format("truetype");
+  }
+}
+
+/* FONTES */
+@font-face {
+  font-family: "NotoSans-Black";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-BlackItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-BlackItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-BoldItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-BoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-ExtraBold";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-ExtraBoldItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-ExtraBoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-ExtraLight";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-ExtraLight.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-ExtraLightItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-ExtraLightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Italic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Light";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-LightItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-LightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-MediumItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-MediumItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-SemiBold";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-SemiBoldItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-SemiBoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-Thin";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans-ThinItalic";
+  src: url("./assets/Fonts/Noto_Sans/NotoSans-ThinItalic.ttf")
+    format("truetype");
+}
+
+/* Seletor global (*) > Reset padrão em todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "NotoSans-Light", sans-serif;
+  font-size: 13px;
+}
+
+/* A aplicação vai ocupar 100% da altura da tela */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font: 14px;
+  background-color: var(--cinza-claro);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none; /* remove a decoração/ sublinhado dos links */
+}
+
+ul {
+  list-style: none; /* remove a decoração/ bolinha das listas NÃO-ORDENADAS */
+}
+
+/* ESTILIZAÇÃO - BOTÕES NORMAIS */
+button {
+  cursor: pointer; /* Sempre que passar o mouse por cima de um botão, mude a animação do cursor para pointer */
+  height: 48px;
+  border: 0; /*  */
+  border-radius: 7px; /*  */
+  background-color: var(--azul); /* Cor do bg */
+  color: var(--branco); /* Cor do texto */
+  font-size: 1.2rem;
+  font-family: "NotoSans-Regular", sans-serif;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Cor da seleção de texto */
+::selection {
+  background-color: rgba(
+    26,
+    26,
+    26,
+    0.25
+  ); /* Define a cor da seleção com opacidade de 25% */
+  color: var(--branco); /* E cor branca para os textos selecinados */
+}
+
+/* ESTILIZANDO OS CAMPOS DE INPUT */
+input {
+  margin-bottom: 1em; /* Define a margem inferior do input */
+  width: 100%;
+  height: 50px; /* Define a altura do input */
+  border: 1px solid var(--cinza-escuro2); /* Define uma borda sólida com cor cinza escuro 2 */
+  border-radius: 7px; /* Define o raio da borda do input */
+  padding: 10px; /* Define o espaçamento interno do input */
+  font-size: 15px; /* Define o tamanho da fonte do texto do input */
+  background-color: var(--branco); /* Define a cor de fundo do input */
+}
+
+input:disabled {
+  margin-bottom: 0rem; /* Define a margem inferior do input */
+  height: 50px; /* Define a altura do input */
+  border: 1px solid var(--cinza-escuro2); /* Define uma borda sólida com cor cinza claro */
+  border-radius: 7px; /* Define o raio da borda do input */
+  padding: 10px; /* Define o espaçamento interno do input */
+  font-size: 15px; /* Define o tamanho da fonte do texto do input */
+  background-color: var(--cinza-claro2); /* Define a cor de fundo do input */
+  cursor: not-allowed; /* Muda o cursor para PROIBIDO */
+}
+
+/*Controle com os campos de input devem ficar (onFocus) */
+input:focus {
+  border: 1px solid var(--cinza-escuro2); /* Define uma borda sólida com cor cinza escuro 2 */
+  background-color: var(--cinza-claro); /* Define a cor de fundo do input */
+  outline: none; /* Remove o contorno padrão do elemento em foco */
+}
+
+/* CONTAINERS */
+/*Caixa azul (externa)*/
+.container-azul {
+  display: flex;
+  padding: 0.4px;
+  margin: 1.1em;
+  background-color: var(--azul-claro);
+  border-radius: 12px;
+  align-items: center;
+}
+
+/*Caixa branca (externa)*/
+.container-branco {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  padding: 1.2em;
+  border-radius: 12px;
+  background-color: var(--branco);
+  box-shadow: var(--sombra);
+}
+
+@media (max-width: 700px) {
+  body {
+    overflow-y: hidden; /* Esconder a barra de rolagem vertical quando a largura da tela for menor que 521px */
+  }
+}

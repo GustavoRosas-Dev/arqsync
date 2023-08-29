@@ -1,0 +1,29 @@
+.EtiquetaFreePro {
+  width: 40px;
+  height: 20px;
+  padding: 2px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--branco);
+  font-family: "NotoSans-Medium", sans-serif;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 6px;
+  position: absolute;
+  top: 42px;
+  left: 145px;
+  z-index: 99;
+  scale: 0.8;
+}
+
+
+/* ÁREA RESPONSIVIDADE: MEDIA QUERIE */
+
+/* ------ 700PX ------ */
+@media screen and (max-width: 700px) {
+
+    .EtiquetaFreePro {
+      display:none;
+    }
+}

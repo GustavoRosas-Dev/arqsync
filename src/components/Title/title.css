@@ -1,0 +1,24 @@
+.title-border {
+  padding: 0.4px;
+  margin: 1.1em;
+  background-color: var(--azul-claro);
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em;
+  padding: 1.2em;
+  border-radius: 12px;
+  background-color: var(--branco);
+  box-shadow: var(--sombra);
+}
+
+.title span {
+  margin-left: 0.6em;
+  font-size: 1.6em;
+  font-family: "NotoSans-Bold", sans-serif;
+  color: var(--azul);
+}

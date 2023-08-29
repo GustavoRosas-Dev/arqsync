@@ -1,0 +1,65 @@
+/*Caixa em volta da foto */
+.label-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.label-avatar input {
+  display: none;
+}
+
+/* SPAN - se refere ao ícone pór cima da foto*/
+.label-avatar span {
+  z-index: 99; /* Ordem de empilhamento */
+  position: absolute; /* posição do elemento em relação ao seu ancestral posicionado */
+  color: var(--branco);
+  opacity: 0.4;
+
+  transition: all 0.1s; /* Define a transição animada para todas as propriedades do elemento  span */
+}
+
+/* Quando o mouse está sobre o elemento SPAN */
+.label-avatar span:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+#titulo {
+  font-family: "NotoSans-Regular", sans-serif;
+  font-size: 18px;
+  color: var(--cinza-escuro2);
+}
+
+/* ESTILIZAÇÃO - BOTÕES NORMAIS */
+.btn-salvar {
+  margin: 18px;
+  width: 100%;
+}
+.btn-salvar:hover {
+  background-color: var(--azul-hover);
+}
+
+#btn-salvar-Shine{
+  display:none;
+  width: 100%;
+}
+
+/* CONTAINERS */
+
+/* Elemento imagem */
+.container-branco img {
+  margin-bottom: 1em;
+  border-radius: 50%;
+  object-fit: cover; /* Para ajustar/ver toda a foto do usuário  */
+}
+
+.container-branco label {
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+}
+
+#container-azul-form-perfil {
+  /* max-width: 488px; */
+}

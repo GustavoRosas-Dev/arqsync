@@ -1,0 +1,52 @@
+.BannerVersaoArqSync {
+  position: fixed;
+  width: calc(100% - 228px); /* Considerando a largura da sidebar */
+  height: 40px;
+  color: var(--cinza-escuro3);
+  background-color: var(--cinza-claro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 40px; /* Espaço de margem inferior */
+  font-size: 13px;
+  font-family: "NotoSans-Regular",sans-serif;
+  padding-bottom: 2px;
+  
+
+}
+
+.BannerVersaoArqSync.show {
+  transform: translateY(-48px); /* Ajuste para a altura do componente (48px) */
+}
+
+.BannerVersaoArqSync a {
+  text-decoration: underline;
+  color: var(--cinza-escuro3);
+  font-size: 13px;
+  font-family: "NotoSans-Regular",sans-serif;
+
+}
+
+@media (max-width: 700px) {
+  .BannerVersaoArqSync {
+    position: fixed;
+    width: 100%; /* Considerando a largura da sidebar */
+    height: 40px;
+    color: var(--cinza-escuro3);
+    background-color: var(--cinza-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    margin-bottom: 40px; /* Espaço de margem inferior */
+    font-size: 13px;
+    font-family: "NotoSans-Regular",sans-serif;
+  }
+
+
+}
