@@ -19,16 +19,28 @@ O projeto <b>ArqSync</b> está atualmente em fase de desenvolvimento e é consid
 
 Para utilizar o <b>ArqSync</b>, certifique-se de que você tenha o Node.js e o React instalados em sua máquina. Em seguida, siga as instruções abaixo:
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/arqsync.git`
-2. Navegue até o diretório do projeto: `cd arqsync`
-3. Instale as dependências: `npm install`
+1. Clone este repositório:
+   ```
+   git clone https://github.com/seu-usuario/arqsync.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```
+   cd arqsync
+   ```
+3. Instale as dependências:
+   ```
+   npm install
+   ```
 4. Navegue até a pasta `scr/services`, duplique e renomeie o arquivo `firebaseConfigExample.js` para `firebaseConfig.js`. Mantenha-o na mesma pasta.
 5. Preencha as informações sensíveis em `firebaseConfig.js` com as suas próprias credenciais do Firebase.
 6. Salve o arquivo e pronto! Seu projeto agora está configurado para se conectar ao Firebase.
 
 Certifique-se de NÃO adicionar o arquivo `firebaseConfig.js` ao controle de versão, pois ele contém informações sensíveis.
 
-7. Inicie o servidor de desenvolvimento: `npm start`
+7. Inicie o servidor de desenvolvimento:
+   ```
+   npm start
+   ```
 
 ### GIF Demonstrativo
 
@@ -63,11 +75,20 @@ Link: https://www.figma.com/file/5Xb2uaYKV9FlcJGlC4MtSy/Dashboard-ArqSync?type=d
 Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimento do <b>ArqSync</b>, siga estas etapas:
 
 1. Faça um fork deste repositório.
-2. Crie um novo branch para a sua funcionalidade: `git checkout -b feature/nova-funcionalidade`
+2. Crie um novo branch para a sua funcionalidade:
+   ```
+   git checkout -b feature/nova-funcionalidade
+   ```
 3. Faça as alterações necessárias e teste-as.
-4. Faça o commit das suas alterações: `git commit -m "Adicionada nova funcionalidade"`
-5. Envie para o seu repositório fork: `git push origin feature/nova-funcionalidade`
-6. Abra um Pull Request no repositório original.
+4. Faça o commit das suas alterações:
+   ```
+   git commit -m "Adicionada nova funcionalidade"
+   ```
+5. Envie para o seu repositório fork:
+   ```
+   git push origin feature/nova-funcionalidade
+   ```
+6. Abra um `Pull Request` no repositório original.
 
 ## Licença
 
