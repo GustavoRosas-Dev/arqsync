@@ -15,33 +15,6 @@ Automatize e agilize o processo de preenchimento de documentos de arquitetura co
 
 O projeto <b>ArqSync</b> está atualmente em fase de desenvolvimento e é considerado um protótipo funcional. A interface do usuário foi criada, e a integração com o Firebase foi implementada para autenticação e armazenamento. Espero, em breve, ter tempo e adicionar mais funcionalidades ao projeto.
 
-## Instalação e Uso
-
-Para utilizar o <b>ArqSync</b>, certifique-se de que você tenha o Node.js e o React instalados em sua máquina. Em seguida, siga as instruções abaixo:
-
-1. Clone este repositório:
-   ```
-   git clone https://github.com/seu-usuario/arqsync.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```
-   cd arqsync
-   ```
-3. Instale as dependências:
-   ```
-   npm install
-   ```
-4. Navegue até a pasta `scr/services`, duplique e renomeie o arquivo `firebaseConfigExample.js` para `firebaseConfig.js`. Mantenha-o na mesma pasta.
-5. Preencha as informações sensíveis em `firebaseConfig.js` com as suas próprias credenciais do Firebase.
-6. Salve o arquivo e pronto! Seu projeto agora está configurado para se conectar ao Firebase.
-
-Certifique-se de NÃO adicionar o arquivo `firebaseConfig.js` ao controle de versão, pois ele contém informações sensíveis.
-
-7. Inicie o servidor de desenvolvimento:
-   ```
-   npm start
-   ```
-
 ### GIF Demonstrativo
 
 ![GIF Demonstrativo](public/images/ArqSync.gif)
@@ -69,6 +42,33 @@ Link: https://www.figma.com/file/5Xb2uaYKV9FlcJGlC4MtSy/Dashboard-ArqSync?type=d
 | Chamados                                            | Clientes                                            | Perfil                                            |
 | --------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------- |
 | ![Imagem 1](public/images/Chamados%20(dashboard).png) | ![Imagem 2](public/images/Clientes%20(dashboard).png) | ![Imagem 3](public/images/Perfil%20(dashboard).png) |
+
+## Instalação e Uso
+
+Para utilizar o <b>ArqSync</b>, certifique-se de que você tenha o Node.js e o React instalados em sua máquina. Em seguida, siga as instruções abaixo:
+
+1. Clone este repositório:
+   ```
+   git clone https://github.com/seu-usuario/arqsync.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```
+   cd arqsync
+   ```
+3. Instale as dependências:
+   ```
+   npm install
+   ```
+4. Navegue até a pasta `scr/services`, duplique e renomeie o arquivo `firebaseConfigExample.js` para `firebaseConfig.js`. Mantenha-o na mesma pasta.
+5. Preencha as informações sensíveis em `firebaseConfig.js` com as suas próprias credenciais do Firebase.
+6. Salve o arquivo e pronto! Seu projeto agora está configurado para se conectar ao Firebase.
+
+Certifique-se de NÃO adicionar o arquivo `firebaseConfig.js` ao controle de versão, pois ele contém informações sensíveis.
+
+7. Inicie o servidor de desenvolvimento:
+   ```
+   npm start
+   ```
 
 ## Contribuições
 
