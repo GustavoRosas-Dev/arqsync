@@ -1,5 +1,7 @@
 # ArqSync - Automatização de Preenchimento de Documentos de Arquitetura
 
+> Este repositório está atualmente disponibilizado de forma pública para fins de estudo enquanto o projeto ainda está em fase de desenvolvimento. Sinta-se à vontade para fazer o download, criar sua cópia ou clonar o repositório para explorar o seu conteúdo. No entanto, por favor, tenha em mente que o projeto ainda não foi finalizado.
+
 Automatize e agilize o processo de preenchimento de documentos de arquitetura com a aplicação web <b>ArqSync</b>. Uma ferramenta moderna e eficiente para arquitetos e profissionais da construção civil.
 
 ## Características Principais
@@ -48,7 +50,7 @@ Link: https://www.figma.com/file/5Xb2uaYKV9FlcJGlC4MtSy/Dashboard-ArqSync?type=d
 
 ##### ❇ Páginas públicas (4 telas)
 
-| Login                                          | Cadastro                                          | Notas                                                 | 404                         |
+| Login                                          | Cadastro                                          | Notas                                                 | 404                              |
 | ---------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------- | -------------------------------- |
 | ![Imagem 1](public/images/Tela%20de%20login.png) | ![Imagem 2](public/images/Tela%20de%20cadastro.png) | ![Imagem 3](public/images/Notas%20de%20lançamento.png) | ![Imagem 4](public/images/404.png) |
 
@@ -59,6 +61,7 @@ Link: https://www.figma.com/file/5Xb2uaYKV9FlcJGlC4MtSy/Dashboard-ArqSync?type=d
 | ![Imagem 1](public/images/Chamados%20(dashboard).png) | ![Imagem 2](public/images/Clientes%20(dashboard).png) | ![Imagem 3](public/images/Perfil%20(dashboard).png) |
 
 ## Contribuições
+
 Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimento do <b>ArqSync</b>, siga estas etapas:
 
 1. Faça um fork deste repositório.
