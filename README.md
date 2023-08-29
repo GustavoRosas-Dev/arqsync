@@ -6,8 +6,6 @@ Automatize e agilize o processo de preenchimento de documentos de arquitetura co
 
 ## Características Principais
 
-O <b>ArqSync</b> é uma aplicação web desenvolvida em React JS, projetada para simplificar e otimizar o preenchimento de documentos de arquitetura.
-
 - **Automatização de Processos:** Elimine a necessidade de inserir repetidamente as mesmas informações em diferentes documentos. Com o <b>ArqSync</b>, insira os dados uma vez e deixe o software preencher automaticamente vários tipos de documentos.
 - **Interface Intuitiva:** A interface de usuário moderna e intuitiva torna a interação com o <b>ArqSync</b> fácil e eficaz, reduzindo erros e melhorando a produtividade.
 - **Integração com o Firebase:** Utilize o Firebase para autenticação de usuários, armazenamento de dados e autenticação. Mantenha seus dados seguros e acessíveis.
