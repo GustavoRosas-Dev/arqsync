@@ -49,7 +49,7 @@ Para utilizar o <b>ArqSync</b>, certifique-se de que você tenha o Node.js e o R
 
 1. Clone este repositório:
    ```
-   git clone https://github.com/seu-usuario/arqsync.git
+   git clone https://github.com/GustavoRosas-Dev/arqsync.git
    ```
 2. Navegue até o diretório do projeto:
    ```
